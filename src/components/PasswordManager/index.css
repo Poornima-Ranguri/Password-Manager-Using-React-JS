@@ -1,0 +1,145 @@
+.heading-container {
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+  padding: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  height: 150px;
+  width: 300px;
+  margin: 20px;
+}
+
+.adding-new-password {
+  background-color: #5763a5;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.your-password {
+  background-color: #5763a5;
+  margin: 30px;
+  width: 70%;
+}
+
+.no-password-show {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.no-password-hide {
+  display: none;
+}
+
+.no-password {
+  width: 100%;
+  text-align: center;
+}
+
+.no-passwd-icon {
+  width: 50%;
+  height: 60%;
+}
+
+.password-container {
+  border-radius: 27px;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px;
+}
+
+.password-container-2 {
+  background-color: transparent;
+  border-radius: 27px;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px;
+  background-color: #454f84;
+}
+
+.heading {
+  color: #ffffff;
+}
+
+.website-container {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  border-right: 3px;
+
+  border-right-style: solid;
+  border-color: #c3caea;
+}
+
+.username-container {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.passwd-container {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.web-url {
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+}
+
+.input {
+  height: 25px;
+  width: 150px;
+  border: none;
+  outline: none;
+}
+
+.add-btn {
+  align-self: flex-end;
+  width: 90px;
+  height: 27px;
+  outline: none;
+  border: none;
+  background-color: #0b69ff;
+  border-radius: 10px;
+  margin: 27px;
+  cursor: pointer;
+}
+
+.manager-image {
+  height: 400px;
+  width: 400px;
+}
+
+.all-password-container {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.passwords-cont {
+  width: 100%;
+}

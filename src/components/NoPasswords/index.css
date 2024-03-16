@@ -1,0 +1,7 @@
+.show-no-passwords {
+  display: flex;
+}
+
+.hide-no-passwords {
+  display: none;
+}
